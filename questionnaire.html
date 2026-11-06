@@ -1,0 +1,168 @@
+<html>
+<head>
+    <title>機車品牌及習慣問卷</title>
+    <meta charset="utf-8">
+
+    <link rel="icon" sizes="200*200" href="name.png">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet"
+    href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+
+	body{background:rgb(237, 231, 231);}
+	nav{width:100%;background:antiquewhite;padding:10px;}
+	nav a{color:#6a1b9a;text-decoration:none;font-size:28px;font-weight:bold;margin-right:10px;}
+	nav a:hover{color:#8e24aa;}
+	.container{width:80%;margin:auto;background:white;padding:20px;margin-top:20px;border-radius:10px;}
+	.question{margin-bottom:20px;}
+	.desc{color:gray;}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+	<h1>
+		<a href="index.html"><i class="fa fa-home"></i> 首頁</a>
+		<a href="aboutme.html"><i class="fa fa-question-circle"></i> 關於我</a>
+		<a href="album.html"><i class="fa fa-image"></i> 我的相簿</a>
+		<a href="questionnaire.html"><i class="fa fa-list-alt"></i> 問卷</a>
+    </h1>
+</nav>
+
+<div class="container">
+<h1 class="w3-center">機車問卷</h1>
+
+
+<form>
+
+<fieldset>
+
+<legend>問卷內容</legend>
+
+<!-- 1 -->
+
+<div class="question">
+
+<h3>1. </h3>
+
+
+<label>
+<input type="checkbox" name="buydrink">是</label>
+<input type="checkbox" name="buydrink">否</label>
+</div>
+
+<hr>
+
+<!-- 2 -->
+
+<div class="question">
+
+<h3>2.機車品牌</h3>
+
+<label><input type="radio" name="brand"> SYM 三陽機車</label><br>
+<label><input type="radio" name="brand"> KYMCO 光陽機車</label><br>
+<label><input type="radio" name="brand"> AMAHA 山葉機車</label><br>
+<label><input type="radio" name="brand"> Vespa 偉士牌</label><br>
+<label><input type="radio" name="brand"> Gogoro</label><br>
+<label><input type="radio" name="brand"> 其他</label><br>
+</div>
+
+<hr>
+
+<!-- 3 -->
+
+<div class="question">
+
+<h3>3. 騎乘頻率</h3>
+
+<select class="w3-select">
+
+<option>請選擇</option>
+<option>30 分鐘以下</option>
+<option>30 分鐘 ~ 1 小時</option>
+<option>1 小時 ~ 2 小時</option>
+<option>2 小時以上</option>
+
+</select>
+
+</div>
+
+<hr>
+
+<!-- 4 -->
+
+<div class="question">
+
+<h3>4.騎乘用途 （可複選）</h3>
+
+<label><input type="checkbox"> 打工/上學通勤</label><br>
+<label><input type="checkbox">  附近代步</label><br>
+<label><input type="checkbox"> 跑山 / 夜衝夜遊</label><br>
+<label><input type="checkbox"> 載同學 / 載另一半</label>
+
+</div>
+
+<hr>
+
+<!-- 5 -->
+
+<div class="question">
+<h3>5. 您認為機車哪項「實用設計」最重要  </h3>
+ <select class="w3-select" name="option">
+ <option value="" disabled selected></option>
+  <option value="1">車廂空間大</option>
+  <option value="2">USB 充電座</option>
+  <option value="3">前腳踏空間寬敞</option>
+   <option value="3">車身輕巧、中柱好立</option>
+</select>
+
+</div>
+<hr>
+
+<!-- 6 -->
+
+<div class="question">
+
+<h3>6.請輸入您最想要的摩托車</h3>
+<input type="text" class="w3-input w3-border" placeholder="例如：杜卡迪">
+
+</div>
+
+<hr>
+
+<!-- 7 -->
+
+<div class="question">
+<h3>7. 能接受機的價格上限多少</h3>
+<input type="number" min="0" class="w3-input w3-border">
+</div>
+
+<hr>
+
+
+
+<!-- 8 -->
+<div class="question">
+<h3>8. 請分享您在校園騎車、停車或選購機車時，遇過最困擾的一件事</h3>
+<textarea rows="5" class="w3-input w3-border"></textarea>
+</div>
+
+<br>
+
+<div class="w3-center">
+<button type="submit" class="w3-button w3-green w3-round-large">送出</button>
+<button type="reset" class="w3-button w3-red w3-round-large">重設</button>
+</div>
+
+</fieldset>
+</form>
+</div>
+</body>
+</html>
